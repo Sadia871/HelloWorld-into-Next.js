@@ -4,11 +4,10 @@ import React from 'react';
 const Motivation = () => {
   return (
     <div style={styles.container}>
-      
       <h1 style={styles.mainHeading}>Hello Sadia Saleem</h1>
       <h2 style={styles.subtitle}>Student of Software Engineering</h2>
       <p style={styles.caption}>
-        "Success is not final, failure is not fatal: It is the courage to continue that counts."
+        &quot;Success is not final, failure is not fatal: It is the courage to continue that counts.&quot;
       </p>
     </div>
   );
