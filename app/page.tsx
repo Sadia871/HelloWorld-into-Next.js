@@ -1,5 +1,6 @@
 // components/Motivation.js
 import React from 'react';
+import { CSSProperties } from 'react';
 
 const Motivation = () => {
   return (
@@ -13,10 +14,10 @@ const Motivation = () => {
   );
 };
 
-const styles = {
+const styles: { [key: string]: CSSProperties } = {
   container: {
     color: 'black',
-    textAlign: 'center',
+    textAlign: 'center', // No longer a generic string
     padding: '50px',
     backgroundColor: '#FF8000',
     borderRadius: '8px',
